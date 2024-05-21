@@ -6,7 +6,7 @@ public class Guitar {
 
     private double price;
 
-    public Guitar(String serialNumber, String builder, String model, String type, String backWood, String topWood, double price) {
+    public Guitar(String serialNumber,double price,String builder,String model,String type,String backWood,String topWood ) {
         this.serialNumber = serialNumber;
         this.builder = builder;
         this.model = model;
